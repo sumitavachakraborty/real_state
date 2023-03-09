@@ -121,23 +121,23 @@ input[type=checkbox]{
 
   .agent-text{
     font-weight: bolder;
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     padding: 1rem 0 1rem 0;
     background-color: #02cd02;
-    color: #fffffe;
+    color: #efefef;
   }
 
   .agent-description{
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 2rem;
     background-color: #02cd02;
-    color: #fffffe;
+    color: #efefef;
+    padding: 0 5%;
   }
 
   .slide-container{
     width: 100%;
     height: 100%;
-    padding: 1rem 5%;
+    padding: 10px 5%;
     display: flex;
     align-items: center;
     background-color: #02cd02;
@@ -155,7 +155,7 @@ input[type=checkbox]{
   } 
     .card {
         background-color: #02cd02;
-        padding: 5% 0 2%;
+        padding: 2% 0 4%;
     }
   
   
@@ -441,7 +441,7 @@ input[type=checkbox]{
     }
 
     .card-image{
-      height: 250px;
+      height: 300px;
     }
 
     .description{
@@ -468,13 +468,20 @@ input[type=checkbox]{
    .containerproperty{
     display: block;
     margin: 0;
-    padding: 0 20%;
+    padding: 0 5%;
     
    }
     .property{
       width: 100%;
       height: 30%;
-      padding: 15% 0 0;
+      padding: 5% 12%;
+    }
+    .property-image{
+      background-color: black;
+    }
+    .seller-image{
+      height: 500px;
+      width: 100%;
     }
   }
 
@@ -496,9 +503,9 @@ input[type=checkbox]{
       margin: 0;
     }
 
-    .building-properties{
+    /* .building-properties{
       padding: 10%;
-    }
+    } */
 
     .containerproperty{
       padding: 0 ;
@@ -533,4 +540,16 @@ input[type=checkbox]{
       font-size: 0.8rem;
     }
     
+    .property{
+      width: 100%;
+      height: 30%;
+      padding: 10% 10%;
+    }
+    .property-image{
+      background-color: black;
+    }
+    .seller-image{
+      height: 400px;
+      width: 100%;
+    }
   }
