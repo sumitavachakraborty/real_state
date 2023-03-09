@@ -45,7 +45,7 @@ html {
 /* navigation menu */
 
 .top-nav{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     box-shadow: 0px 6px 8px #979490;
     display: flex;
     justify-content: space-between;
@@ -405,6 +405,15 @@ input[type=checkbox]{
       margin-top: 10px;
       margin-bottom: 20px;
       z-index: 5;
+    }
+
+
+    .agent-text{
+      font-size: 2rem;
+    } 
+    
+    .agent-description{
+      font-size: 1.5rem;
     }
 
     .nav-link li,a{
