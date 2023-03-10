@@ -1,3 +1,3 @@
 # real_state
 ##The image for reference is 
-[](realstate-desktop.jpg)
+[](/mian/realstate-desktop.jpg)
