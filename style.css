@@ -185,15 +185,16 @@ input[type=checkbox]{
     width: 100%;
     object-fit: cover;
   }
-  .name{
+  .card-name{
     font-size: 1.2rem;
     font-weight: bold;
     padding: 0 ;
+    text-align: center;
     color: #fffffe;
     background-color: #02cd02;
   }
   
-  .description{
+  .card-name-description{
     font-size: 1.1rem;
     color: #fffffe;
     font-weight: 500;
@@ -379,6 +380,10 @@ input[type=checkbox]{
     .sellerimagefooter{
       font-size: 0.8rem;
     }
+
+    .agent-description{
+      font-size: 1.4rem;
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -441,7 +446,7 @@ input[type=checkbox]{
       height: 300px;
     }
 
-    .description{
+    .card-name-description{
       font-size: 0.9rem;
     }
 
@@ -514,7 +519,7 @@ input[type=checkbox]{
     }
 
 
-    .description{
+    .card-name-description{
       font-size: 0.9rem;
     }
 
