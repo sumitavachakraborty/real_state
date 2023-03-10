@@ -434,7 +434,7 @@ input[type=checkbox]{
     }
 
     .card{
-      padding: 0 2% 2%;
+      padding: 0 1% 2%;
     }
 
     .card-image{
@@ -498,7 +498,7 @@ input[type=checkbox]{
     }
     .slide-content{
       margin: 0;
-      padding: 0 10%;
+      padding: 0 7%;
     }
 
     /* .building-properties{
