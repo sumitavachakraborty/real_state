@@ -398,7 +398,7 @@ input[type=checkbox]{
 
   @media screen and (max-width: 1030px) {
     .menu{
-      padding:0 20px;
+      padding:0 -20px;
     }
 
     .nav-link{
