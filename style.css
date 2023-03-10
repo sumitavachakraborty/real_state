@@ -106,7 +106,7 @@ input[type=checkbox]{
 }
 
 /* carousel menu  */
-  .carousel{
+  #agent-carousel{
     display: block;
     align-items: center;
     justify-content: center;
@@ -246,13 +246,6 @@ input[type=checkbox]{
   .swiper-pagination-bullet-active{
     background-color: #02cd02;
   }
-  
-  /* making the cursor disappear for single image */
-  
-  /* for making responsive nav links */
-  /* @media screen and (max-width: 1120px) {
-    
-  } */
 
 
   /* properties */
@@ -489,7 +482,7 @@ input[type=checkbox]{
     }
   }
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 475px) {
     
     .nav-image{
       width:200px;
