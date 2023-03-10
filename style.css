@@ -363,9 +363,42 @@ input[type=checkbox]{
     background-color: #efefef;
   }
   
+  @media screen and (min-width: 1921px) {
+    .mobtext{
+      padding: 0 29% 0 0;
+    }
+    .top-nav{
+      justify-content: center;
+    }
+
+    .agent-description{
+      padding: 0 30%;
+    }
+
+    .slide-container{
+      padding: 0 20%;
+    }
+
+    .property{
+      width: 28%;
+      margin: 50px;
+    }
+    .swiper-button-next{
+      right: 15%;
+    }
+    .swiper-button-prev{
+      left: 15%;
+    }
+
+    .swiper-navBtn::before,
+    .swiper-navBtn::after{
+      font-size: 100px;
+    }
+  }
+
   @media screen and (max-width: 1030px) {
     .menu{
-      padding:0 -20px;
+      padding:0 20px;
     }
 
     .nav-link{
