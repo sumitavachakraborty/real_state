@@ -248,17 +248,7 @@ input[type=checkbox]{
   }
   
   /* making the cursor disappear for single image */
-  @media screen and (max-width: 375px) {
-    .slide-content{
-      margin: 0 0px;
-    }
-    .swiper-navBtn{
-      display: none;
-    }
-    
-    
-  }
-
+  
   /* for making responsive nav links */
   /* @media screen and (max-width: 1120px) {
     
@@ -386,6 +376,10 @@ input[type=checkbox]{
       gap: 2em;
     }
     
+    .seller-image{
+      height: 400px;
+      width: 100%;
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -505,6 +499,7 @@ input[type=checkbox]{
     }
     .slide-content{
       margin: 0;
+      padding: 0 10%;
     }
 
     /* .building-properties{
@@ -553,7 +548,27 @@ input[type=checkbox]{
       background-color: black;
     }
     .seller-image{
-      height: 400px;
+      height: 380px;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .slide-content{
+      margin: 0 0px;
+    }
+    .swiper-navBtn{
+      display: none;
+    }
+    
+    .property{
+      width: 100%;
+      height: 30%;
+      padding: 10% 5%;
+    }
+
+    .seller-image{
+      height: 2 00px;
       width: 100%;
     }
   }
