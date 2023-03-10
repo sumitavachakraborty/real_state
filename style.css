@@ -303,10 +303,10 @@ input[type=checkbox]{
 
   .sellerimagefooter{
     color: #fffffe;
-    padding: 10px;
+    padding: 15px;
     background-color: black;
     display: flex;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     justify-content: space-between;
   }
 
@@ -317,7 +317,7 @@ input[type=checkbox]{
   .seller-title{
     font-size: 1.6rem;
     font-weight: 400;
-    padding-top: 10px;
+    padding: 20px 0 0;
   }
 
   .seller-description{
@@ -328,9 +328,11 @@ input[type=checkbox]{
     color: #02cd02;
     font-weight: bold;
     font-size: 1.2rem;
+    margin: 20px 0 0;
   }
 
   .seller-description-text{
+    margin: 20px 0;
     line-height: 2;
     color: #979490;
     font-weight: bold;
@@ -379,6 +381,10 @@ input[type=checkbox]{
     .seller-image{
       height: 400px;
       width: 100%;
+    }
+
+    .sellerimagefooter{
+      font-size: 0.8rem;
     }
   }
 
