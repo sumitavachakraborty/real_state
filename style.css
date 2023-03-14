@@ -37,7 +37,6 @@ html {
 
 .phonetext{
     display: inline;
-    /* float: right; */
     padding: 15px 0 0 0;
     color: #979490;
     font-weight: 200;
@@ -63,7 +62,7 @@ html {
   width: 100%;
 }
 
-/* using checkbox */
+/* hamburger menu using checkbox */
 
 input[type=checkbox]{
   display: none;
@@ -85,11 +84,6 @@ input[type=checkbox]{
 }
 
 .nav-link , li ,a{
-    /* gap: 5rem;
-    padding: 0 0.2rem 0 0;
-    font-weight: 400;
-    font-size: 1.2rem;
-    color: #979490; */
     color: #979490;
     text-decoration: none;
     list-style: none;
@@ -160,8 +154,6 @@ input[type=checkbox]{
     }
   
   
-  /* .image-content, */
-  
   .card-content{
     display: flex;
     flex-direction: column;
@@ -169,11 +161,6 @@ input[type=checkbox]{
     padding: 0 1rem;
     background-color: #02cd02;
   }
-
-  /* .image-content{
-    position: relative;
-    padding: 10px 0;
-  } */
  
   .card-image{
     position: relative;
@@ -221,6 +208,10 @@ input[type=checkbox]{
         background-color: #02cd02;
         width: 2.5rem;
     }
+  
+  
+  /* using swiper css and js plugins for next and previous     */
+
   .swiper-navBtn{
     color: #fffffe;
     padding: 0 5px 0;
@@ -251,7 +242,7 @@ input[type=checkbox]{
   }
 
 
-  /* properties */
+  /* properties section */
   .containerproperty{
     margin-top: 50px;
     display: flex;
@@ -491,10 +482,6 @@ input[type=checkbox]{
       color:#02cd02;
       transition: all 0.8s ease 0s;
     }
-/*       
-    .nav-link li + li{
-      margin-top: 10px;
-    } */
 
     .hamburger {  
       display: block;
@@ -582,10 +569,6 @@ input[type=checkbox]{
       margin: 0;
       padding: 0 7%;
     }
-
-    /* .building-properties{
-      padding: 10%;
-    } */
 
     .containerproperty{
       padding: 0 ;
