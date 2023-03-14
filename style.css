@@ -452,7 +452,7 @@ input[type=checkbox]{
     }
 
     .navbarlogo{
-      width: 100px;
+      width: 180px;
     }
     
     .nav-link { 
@@ -485,7 +485,7 @@ input[type=checkbox]{
 
     .hamburger {  
       display: block;
-      padding: 0 10px;
+      padding: 0 5px;
       color: #02cd02;
       font-size: 25px;
     }
@@ -559,7 +559,7 @@ input[type=checkbox]{
     .phonetext{
       padding: 12px 0 0 0;
       font-weight: 100;
-      font-size: 0.5rem;
+      font-size: 0.8rem;
     }
 
 
