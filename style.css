@@ -223,9 +223,10 @@ input[type=checkbox]{
     }
   .swiper-navBtn{
     color: #fffffe;
-    padding: 0 22px 0;
+    padding: 0 5px 0;
     background-color: rgba(0, 0, 0, 0);
     transition: color 0.3s ease;
+    display: inline !important;
   }
   .swiper-navBtn:hover{
     color: #979490;
@@ -236,10 +237,10 @@ input[type=checkbox]{
     margin: auto;
   }
   .swiper-button-next{
-    right: 0;
+    right: 2%;
   }
   .swiper-button-prev{
-    left: 0;
+    left: 2%;
   }
   .swiper-pagination-bullet{
     background-color: #02cd02;
@@ -378,7 +379,7 @@ input[type=checkbox]{
     }
 
     .header{
-      padding: 0 25%;
+      padding: 0 40%;
     }
     
     .mobtext{
@@ -386,7 +387,7 @@ input[type=checkbox]{
     }
 
     .top-nav{
-      justify-content: center;
+      justify-content: space-evenly;
     }
 
     .agent-description{
@@ -404,12 +405,12 @@ input[type=checkbox]{
       justify-content: center;
     }
     .card-image{
-      height: 300px;
+      height: 400px;
     }
 
     .property{
       margin: 50px;
-      padding: 0 10%;
+      padding: 0 12%;
     }
     .swiper-button-next{
       right: 15%;
