@@ -55,7 +55,7 @@ html {
 }
 
 .nav-image{
-    display: inline-block;
+    display: inline;
 }
 
 .navbarlogo{
@@ -370,7 +370,7 @@ input[type=checkbox]{
     }
 
     .header{
-      padding: 0 40%;
+      padding: 0 30%;
     }
     
     .mobtext{
@@ -473,8 +473,8 @@ input[type=checkbox]{
       z-index: 5;
     }
 
-    .nav-link li,a{
-      padding: 10px 0;
+    .nav-link li{
+      margin-bottom: 10px;
     }
 
     .nav-link a:hover {
@@ -552,9 +552,19 @@ input[type=checkbox]{
   }
 
   @media screen and (max-width: 475px) {
-    
-    .nav-image{
-      width:200px;
+    .mobilePhone {
+      width: 35px;
+    }
+  
+    .phonetext{
+      padding: 12px 0 0 0;
+      font-weight: 100;
+      font-size: 0.5rem;
+    }
+
+
+    .navbarlogo{
+      width: 100px;
     }
 
     .card{
