@@ -57,7 +57,6 @@ html {
 
 .nav-image{
     display: inline-block;
-    width: 100%;
 }
 
 .navbarlogo{
@@ -124,7 +123,7 @@ input[type=checkbox]{
   .agent-text{
     font-weight: bold;
     font-size: 3rem;
-    padding: 50px 0 1.2rem 0;
+    padding: 50px 0 30px 0;
     background-color: #02cd02;
     color: #efefef;
   }
@@ -133,7 +132,7 @@ input[type=checkbox]{
     font-size: 1.6rem;
     background-color: #02cd02;
     color: #efefef;
-    padding: 0 10%;
+    padding: 0 12%;
   }
 
   .slide-container{
@@ -178,7 +177,7 @@ input[type=checkbox]{
  
   .card-image{
     position: relative;
-    padding: 10px;
+    padding: 15px;
     background-color: #02cd02;
     height:400px;
   }
@@ -188,18 +187,18 @@ input[type=checkbox]{
     object-fit: cover;
   }
   .card-name{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: bold;
-    padding: 0 ;
+    padding-top: 10px ;
     text-align: center;
     color: #fffffe;
     background-color: #02cd02;
   }
   
   .card-name-description{
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     color: #fffffe;
-    font-weight: 500;
+    font-weight: 200;
     padding: 1rem 0;
     line-height: 1.8;
     text-align: center;
@@ -295,7 +294,7 @@ input[type=checkbox]{
     background-color: black;
   }
   .seller-image{
-    height: 600px;
+    height: 550px;
     width: 100%;
   }
 
@@ -304,7 +303,7 @@ input[type=checkbox]{
     padding: 15px;
     background-color: black;
     display: flex;
-    font-size: 1.1rem;
+    font-size: 1rem;
     justify-content: space-between;
   }
 
@@ -374,6 +373,10 @@ input[type=checkbox]{
   }
   
   @media screen and (min-width: 1921px) {
+    .top-nav{
+      height: 80px;
+    }
+
     .header{
       padding: 0 25%;
     }
@@ -432,7 +435,7 @@ input[type=checkbox]{
     .nav-link{
       gap: 2em;
     }
-    
+
     .seller-image{
       height: 400px;
       width: 100%;
@@ -452,6 +455,14 @@ input[type=checkbox]{
   }
 
   @media screen and (max-width: 768px) {
+    .agentsection{
+      margin-bottom: 10px;
+    }
+
+    .navbarlogo{
+      width: 100px;
+    }
+    
     .nav-link { 
       display:none;
       position: absolute;
@@ -486,9 +497,9 @@ input[type=checkbox]{
 
     .hamburger {  
       display: block;
-      padding: 10px 10px ;
+      padding: 0 10px;
       color: #02cd02;
-      
+      font-size: 25px;
     }
     
     .slide-container{
